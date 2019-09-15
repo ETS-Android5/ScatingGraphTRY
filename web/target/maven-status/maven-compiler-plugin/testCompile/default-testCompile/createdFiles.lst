@@ -1,0 +1,14 @@
+com\graphhopper\http\resources\RouteResourceIssue1574Test.class
+com\graphhopper\http\GraphHopperLandmarksTest.class
+com\graphhopper\http\resources\ChangeGraphResourceTest.class
+com\graphhopper\http\resources\MvtResourceTest.class
+com\graphhopper\http\resources\GpxTravelTimeConsistencyTest.class
+com\graphhopper\http\resources\NearestResourceTest.class
+com\graphhopper\http\resources\NearestResourceWithEleTest.class
+com\graphhopper\http\resources\RouteResourceTest.class
+com\graphhopper\http\resources\I18nResourceTest.class
+com\graphhopper\http\isochrone\PtIsochroneResourceTest.class
+com\graphhopper\http\GraphHopperDataFlagEncoderSpatialRulesTest.class
+com\graphhopper\http\resources\RouteResourceWithEleTest.class
+com\graphhopper\http\isochrone\IsochroneResourceTest.class
+com\graphhopper\http\IPFilterTest.class

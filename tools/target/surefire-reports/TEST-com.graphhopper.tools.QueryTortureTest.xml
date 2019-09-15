@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.graphhopper.tools.QueryTortureTest" time="0.084" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="git.tags" value=""/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="git.build.version" value="0.13-SNAPSHOT"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\danie\graphhopper2\tools\target\test-classes;C:\Users\danie\graphhopper2\tools\target\classes;C:\Users\danie\graphhopper2\reader-osm\target\graphhopper-reader-osm-0.13-SNAPSHOT.jar;C:\Users\danie\graphhopper2\core\target\graphhopper-core-0.13-SNAPSHOT.jar;C:\Users\danie\graphhopper2\api\target\graphhopper-api-0.13-SNAPSHOT.jar;C:\Users\danie\.m2\repository\org\locationtech\jts\jts-core\1.15.1\jts-core-1.15.1.jar;C:\Users\danie\.m2\repository\com\carrotsearch\hppc\0.8.1\hppc-0.8.1.jar;C:\Users\danie\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.3\xmlgraphics-commons-2.3.jar;C:\Users\danie\.m2\repository\commons-io\commons-io\1.3.1\commons-io-1.3.1.jar;C:\Users\danie\.m2\repository\org\openstreetmap\osmosis\osmosis-osm-binary\0.47\osmosis-osm-binary-0.47.jar;C:\Users\danie\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\danie\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\danie\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\danie\.m2\repository\org\slf4j\slf4j-log4j12\1.7.26\slf4j-log4j12-1.7.26.jar;C:\Users\danie\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\danie\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\danie\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="git.branch" value="master"/>
+    <property name="git.build.host" value="LAPTOP-LUVU5TNA"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="git.commit.id" value="57767a8fa8efe196be10fb7e3d0d7efb301d3ce3"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="git.build.user.name" value=""/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_212\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\danie\AppData\Local\Temp\surefire292665560638492693\surefirebooter3363691002742794123.jar C:\Users\danie\AppData\Local\Temp\surefire292665560638492693 2019-06-19T07-44-37_745-jvmRun1 surefire6401631918662251332tmp surefire_66081911368666397799tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\danie\graphhopper2\tools\target\test-classes;C:\Users\danie\graphhopper2\tools\target\classes;C:\Users\danie\graphhopper2\reader-osm\target\graphhopper-reader-osm-0.13-SNAPSHOT.jar;C:\Users\danie\graphhopper2\core\target\graphhopper-core-0.13-SNAPSHOT.jar;C:\Users\danie\graphhopper2\api\target\graphhopper-api-0.13-SNAPSHOT.jar;C:\Users\danie\.m2\repository\org\locationtech\jts\jts-core\1.15.1\jts-core-1.15.1.jar;C:\Users\danie\.m2\repository\com\carrotsearch\hppc\0.8.1\hppc-0.8.1.jar;C:\Users\danie\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.3\xmlgraphics-commons-2.3.jar;C:\Users\danie\.m2\repository\commons-io\commons-io\1.3.1\commons-io-1.3.1.jar;C:\Users\danie\.m2\repository\org\openstreetmap\osmosis\osmosis-osm-binary\0.47\osmosis-osm-binary-0.47.jar;C:\Users\danie\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\danie\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\danie\.m2\repository\org\slf4j\slf4j-api\1.7.26\slf4j-api-1.7.26.jar;C:\Users\danie\.m2\repository\org\slf4j\slf4j-log4j12\1.7.26\slf4j-log4j12-1.7.26.jar;C:\Users\danie\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\danie\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\danie\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\danie"/>
+    <property name="user.language" value="de"/>
+    <property name="git.closest.tag.commit.count" value=""/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_212\jre"/>
+    <property name="git.total.commit.count" value="3952"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\danie\graphhopper2\tools"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="git.build.user.email" value=""/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="git.closest.tag.name" value=""/>
+    <property name="git.local.branch.ahead" value="0"/>
+    <property name="git.build.time" value="2019-06-19T07:45:44+0200"/>
+    <property name="surefire.real.class.path" value="C:\Users\danie\AppData\Local\Temp\surefire292665560638492693\surefirebooter3363691002742794123.jar"/>
+    <property name="git.commit.message.full" value="Defer Geocoding Requests #1636"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_212\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_212\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_212\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_212-b10"/>
+    <property name="user.name" value="danie"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_212\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="git.commit.user.email" value="boldtrn@gmail.com"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="git.local.branch.behind" value="0"/>
+    <property name="git.dirty" value="false"/>
+    <property name="localRepository" value="C:\Users\danie\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\danie\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_212"/>
+    <property name="user.dir" value="C:\Users\danie\graphhopper2\tools"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="git.commit.user.name" value="Robin"/>
+    <property name="git.commit.id.abbrev" value="57767a8"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="git.commit.id.describe-short" value="57767a8"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="git.commit.id.describe" value="57767a8"/>
+    <property name="git.commit.message.short" value="Defer Geocoding Requests #1636"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_212\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;%JAVA_HOME&amp;\bin;C:\Program Files\Java\apache-maven-3.6.1\bin;C:\Users\danie\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_212\bin;C:\Program Files\Java\apache-maven-3.6.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1.3\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="25.212-b10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_212\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="git.commit.time" value="2019-06-18T21:44:38+0200"/>
+    <property name="git.remote.origin.url" value="https://github.com/graphhopper/graphhopper.git"/>
+  </properties>
+  <testcase name="testGetQuery" classname="com.graphhopper.tools.QueryTortureTest" time="0.006"/>
+</testsuite>

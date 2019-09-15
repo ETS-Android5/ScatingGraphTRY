@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.graphhopper.reader.osm.GraphHopperOSMTest
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.564 s - in com.graphhopper.reader.osm.GraphHopperOSMTest
