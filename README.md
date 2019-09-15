@@ -2,7 +2,7 @@
  GraphTRY
  
  
-git clone git://github.com/graphhopper/graphhopper.git
+git clone git://github.com/Dan894/ScatingGraphTRY.git
 cd graphhopper; git checkout master
 # fetches main.js, can be omitted if no UI is needed
 cd web/src/main/resources/ && ZFILE=/tmp/gh.jar && wget -O $ZFILE "https://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g=com.graphhopper&a=graphhopper-web&v=LATEST" && unzip $ZFILE assets/js/main.js && rm $ZFILE && cd ../../../..
@@ -37,7 +37,7 @@ sudo apt-get install oracle-java7-jdk
 
 Now the GraphHopper setup itself is done with 4 easy steps, you’ll need internet access for downloading some files as well as for displaying the tiles:
 
-    git clone https://github.com/graphhopper/graphhopper/
+    git clone https://github.com/Dan894/ScatingGraphTRY.git
     # Avoid the “-server” option and reduce the default memory usage for  graphhopper. E.g. for Berlin you can do:
     export JAVA_OPTS=”-Xmx100m -Xms100m”; cd graphhopper
     ./graphhopper.sh import europe_germany_berlin.pbf
