@@ -18,7 +18,7 @@
 package com.graphhopper.routing.util;
 
 import com.graphhopper.util.PMap;
-import com.sun.prism.shader.Solid_Color_AlphaTest_Loader;
+// import com.sun.prism.shader.Solid_Color_AlphaTest_Loader;
 
 /**
  * This class creates FlagEncoders that are already included in the GraphHopper distribution.
