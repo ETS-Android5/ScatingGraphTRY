@@ -163,7 +163,7 @@ Either get [Babun](http://babun.github.io/) which comes preinstalled with git an
 $ cd /cygdrive/c/Dokumente und Einstellungen/peter/dev
 
 # get the sources
-$ git clone https://github.com/graphhopper/graphhopper.git
+$ git clone https://github.com/Dan894/ScatingGraphTRY.git
 
 # go into graphhopper root
 $ cd graphhopper
